@@ -1,0 +1,13 @@
+.place__text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+@media (width: 320px)  {
+    .place__text{
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    
+}
